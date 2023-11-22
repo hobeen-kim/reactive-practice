@@ -27,6 +27,9 @@ dependencies {
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    //reactive streams
+    implementation 'org.reactivestreams:reactive-streams'
 }
 
 tasks.named('bootBuildImage') {
